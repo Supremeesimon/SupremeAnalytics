@@ -1,0 +1,3 @@
+[submodule "SupremeAnalytics"]
+	path = SupremeAnalytics
+	url = https://github.com/example/repo.git
