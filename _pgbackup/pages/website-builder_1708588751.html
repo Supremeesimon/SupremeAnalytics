@@ -78,8 +78,7 @@
                     <li class="nav-item">
                         <a class="nav-link text-white " href="../pages/tables.html"><div class="text-white text-center me-2 d-flex align-items-center justify-content-center"><i class="material-icons opacity-10">dashboard</i>
                             </div> <span class="nav-link-text ms-1">Tables</span> </a>
-                    </li>
-                    <a class="nav-link text-white " href="../pages/website-builder.html"><div class="text-white text-center me-2 d-flex align-items-center justify-content-center"><i class="material-icons opacity-10">dashboard</i>
+                    </li><a class="nav-link text-white " href="../pages/website-builder.html"><div class="text-white text-center me-2 d-flex align-items-center justify-content-center"><i class="material-icons opacity-10">dashboard</i>
                         </div> <span class="nav-link-text ms-1">Web builder </span> </a>
                     <li class="nav-item">
                         <a class="nav-link text-white " href="../pages/map.html"> <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
@@ -90,7 +89,8 @@
 </li>
                     <li class="nav-item"><a class="nav-link text-white " href="../pages/profile.html"> <div class="text-white text-center me-2 d-flex align-items-center justify-content-center"><i class="material-icons opacity-10">person</i>
                             </div> <span class="nav-link-text ms-1">Profile</span> </a>
-                    </li><a class="nav-link text-white " href="../pages/notifications.html"> <div class="text-white text-center me-2 d-flex align-items-center justify-content-center"><i class="material-icons opacity-10">notifications</i>
+                    </li>
+                    <a class="nav-link text-white " href="../pages/notifications.html"> <div class="text-white text-center me-2 d-flex align-items-center justify-content-center"><i class="material-icons opacity-10">notifications</i>
                         </div> <span class="nav-link-text ms-1">Notifications</span> </a>
                     <li class="nav-item"><a class="nav-link text-white " href="../pages/billing.html"> <div class="text-white text-center me-2 d-flex align-items-center justify-content-center"><i class="material-icons opacity-10">receipt_long</i>
                             </div> <span class="nav-link-text ms-1">Billing</span> </a>
@@ -199,69 +199,44 @@
             <div class="container-fluid py-4">
                 <div class="row min-vh-100">
                     <div class="col-11 mx-auto">
-                        <div class="col-xl-11 card mt-4">
-                            <!-- Increase the column size on larger screens (e.g., xl) -->
+                        <div class="card mt-4">
                             <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
-                                <div class="bg-gradient-primary shadow-primary border-radius-lg pt-2 pb-3">
-                                    <h6 class="text-white text-capitalize ps-3">Dashboard Builder</h6>
-                                    <p class="mb-0 text-white ps-3">Provided and Handcrafted by our friends from <a class="text-white font-weight-bold" target="_blank" href="https://www.site123.com/">SITE123</a></p>
+                                <div class="bg-gradient-primary shadow-primary border-radius-lg pt-4 pb-3">
+                                    <h6 class="text-white text-capitalize ps-3">SupremeAnalytics Icons</h6>
+                                    <p class="mb-0 text-white ps-3">Handcrafted by our friends from <a class="text-white font-weight-bold" target="_blank" href="https://fonts.google.com/icons">Google</a> </p>
                                 </div>
                             </div>
-                            <div class="card-body overflow-auto">
-                                <!-- Use overflow-auto to prevent scrollbar when content exceeds the card height -->
-                                <p>Build Your Website Here!</p>
-                                <p><button class="btn btn-primary btn-lg" type="button" id="button-build" onclick="performBuild()">Welcome</button></p>
-                                <script src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.3.1/iframeResizer.min.js"></script>
-                                <script>
-        function performBuild() {
-            // Assuming you have a variable with the embedded code URL
-            var embeddedCodeURL = "https://app.site123.com/manager/login/sign_up.php?l=en";
-
-            // Create a new iframe element
-            var iframe = document.createElement("iframe");
-            iframe.src = embeddedCodeURL;
-            iframe.width = "95%";
-            iframe.height = "600px";
-            iframe.frameBorder = "0";
-            
-
-            // Insert the iframe into the card-body element
-            var cardBody = document.querySelector(".card-body");
-            cardBody.appendChild(iframe);
-
-            // Remove the "Build" button after the iframe has been created
-            var buildButton = document.getElementById("button-build");
-            buildButton.parentNode.removeChild(buildButton);
-        }
-    </script>
+                            <div class="card-body">
+                                <p>Through most of the examples in this dashboard, we have used the default <a href="https://fonts.google.com/icons">Icons for the Material Design</a> provided by Google.</p><i class="material-icons text-2xl">face</i>
                             </div>
                         </div>
-                        <footer class="footer py-4">
-                            <div class="container-fluid">
-                                <div class="row align-items-center justify-content-lg-between">
-                                    <div class="col-lg-6 mb-lg-0 mb-4">
-                                        <div class="copyright text-center text-sm text-muted text-lg-start">&copy; Powered by SupremeAnalytics&nbsp;</div>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <ul class="nav nav-footer justify-content-center justify-content-lg-end">
-                                            <li class="nav-item">
-</li>
-                                            <li class="nav-item"><a href="https://www.creative-tim.com/presentation" class="nav-link text-muted" target="_blank">About Us</a>
-                                            </li>
-                                            <li class="nav-item"><a href="https://www.creative-tim.com/blog" class="nav-link text-muted" target="_blank">Blog</a>
-                                            </li>
-                                            <li class="nav-item"><a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted" target="_blank">License</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </footer>
                     </div>
                 </div>
+                <footer class="footer py-4  ">
+                    <div class="container-fluid">
+                        <div class="row align-items-center justify-content-lg-between">
+                            <div class="col-lg-6 mb-lg-0 mb-4">
+                                <div class="copyright text-center text-sm text-muted text-lg-start">&copy; Powered by SupremeAnalytics&nbsp;</div>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul class="nav nav-footer justify-content-center justify-content-lg-end">
+                                    <li class="nav-item">
+</li>
+                                    <li class="nav-item"><a href="https://www.creative-tim.com/presentation" class="nav-link text-muted" target="_blank">About Us</a>
+                                    </li>
+                                    <li class="nav-item"><a href="https://www.creative-tim.com/blog" class="nav-link text-muted" target="_blank">Blog</a>
+                                    </li>
+                                    <li class="nav-item"><a href="https://www.creative-tim.com/license" class="nav-link pe-0 text-muted" target="_blank">License</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
             </div>
         </main>
-        <div class="fixed-plugin"><a class="fixed-plugin-button text-dark position-fixed px-3 py-2"> <i class="material-icons py-2">settings</i> </a>
+        <div class="fixed-plugin">
+            <a class="fixed-plugin-button text-dark position-fixed px-3 py-2"> <i class="material-icons py-2">settings</i> </a>
             <div class="card shadow-lg">
                 <div class="card-header pb-0 pt-3">
                     <div class="float-start">
